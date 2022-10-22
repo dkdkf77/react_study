@@ -1,137 +1,86 @@
-.wrap {
+.wrap{
+      width: 100%;
+    }
+.header{
+      width: 100%; height: 100px;
+      background-color: yellowgreen;
+    }
+.headerIn{
+      margin: 0 auto;
+      width: 1120px; height: 100px;
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: space-between;
+    }  
+.logo{
+      width: 180px; height: 100px; 
+      background-color: violet;
+    }
+.hGroup{
+      width: 890px; height: 100px; 
+      background-color: violet;
+    }
+.nav{ 
+      float: left;
+      width: 575px;
+      height: 100px;
+      background-color: azure;
+      padding-top: 55px;
+      box-sizing: border-box;
+}
+.nav ul{display: flex;
+        justify-content: space-between;}
+.nav li Link{ 
+        font-size: 16px;
+        color: #777;
+      }
+          
 
-  width: 100%;
+/* 메인페이지 */
+.mainImg{
+      width: 100%;
+      height: 580px;
+      background-color: tomato;
 }
 
-.header {
-  width: 100%;
-  height: 150px;
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-}
+.contents{
+      width: 100%;
+    }
+.contents > article{
+      width: 100%;
+    }
+.product1{
+      height:610px ;
+      background-color: thistle;
+    }
+.product2{
+      height:1120px ;
+      background-color: rgb(216, 215, 191);
+    } 
+.product3{height:1330px ;
+          background-color: rgb(14, 222, 184);
+        }
+.product4{height:635px ;
+          background-color: rgb(205, 34, 142);
+        }   
+.product5{height:1040px ;
+          background-color: rgb(31, 232, 41);
+        }                   
 
-.headerIn {
-  width: 1300px;
-  height: 150px;
-  background-color: cadetblue;
-  display: flex;
-  justify-content: space-between;
-
-}
-
-
-
-.nav {
-  width: 800px;
-  height: 50px;
-  background-color: black;
-  float: left;
-}
-
-.infomn {
-  width: 200px;
-  height: 30px;
-  background-color: blue;
-  float: left;
-
-}
-
-.logo {
-  width: 150px;
-  height: 150px;
-  background-color: bisque;
-  text-align: center;
-  line-height: 150px;
-  float: left;
-}
-
-
-.contents {
-  padding: 20px 0 40px 0;
-  width: 100%;
-  height: auto;
-  background-color: brown;
-}
-
-
-.section01 {
-
-  width: 1300px;
-  height: 200px;
-  background-color: aquamarine;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
-.section02 {
-  width: 1300px;
-  height: 300px;
-  background-color: blueviolet;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
-.section03 {
-  width: 1300px;
-  height: 350px;
-  background-color: blue;
-  margin: 0 auto;
-
-
-}
-
-.mn_group {
-  width: 800px;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-.mainImg {
-  width: 100%;
-  height: 350px;
-  background-color: blanchedalmond;
-}
-
-.contents {
-  width: 100%;
-  height: 1500px;
-  background-color: brown;
-}
-
-.footer {
-  width: 100%;
-  height: 120px;
-  background-color: cadetblue;
-
-
-}
-
-.footerLogo {
-  width: 150px;
-  height: 120px;
-  background-color: black;
-
-}
-
-.footerIn {
-  width: 1300px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.FtGroup1 {
-  width: 700px;
-  height: 60px;
-  background-color: beige;
-}
-
-.FtGroup2 {
-  width: 700px;
-  height: 60px;
-  background-color: blue;
+/* 하단부분 */
+.footer{
+    width: 100%;
+  }
+.fInfo{
+    width: 100%; height:260px ;
+    background-color:#ccc;    
+  }
+.fMenu{
+    width: 100%; height: 55px;
+    border-top: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgb(182, 182, 182);    
+}  
+.fAddress{
+  width: 100%; height: 245px;
+  background-color:rgb(213, 232, 104);
 }

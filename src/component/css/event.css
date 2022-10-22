@@ -1,0 +1,129 @@
+.eventHome {
+  width: 1120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.eventHome ul {
+  display: flex;
+  justify-content: left;
+}
+
+.eventHome ul li {
+  margin-right: 10px;
+}
+
+.eventBanner div {
+  width: 1120px;
+  height: 380px;
+  background-color: brown;
+  margin: 0 auto 100px;
+}
+.eventBox {
+  width: 1120px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.eventBox > div {
+  width: 550px;
+  height: 187px;
+  background-color: #f7f7f7;
+}
+
+.eventSubNotice {
+  display: flex;
+  justify-content: left;
+  padding: 40px 40px;
+  box-sizing: border-box;
+}
+.eventResult > ul {
+  width: 130px;
+  height: 109px;
+  border-right: 1px solid #ccc;
+  margin-right: 39px;
+}
+.eventResult > ul > li > h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.eventResult > ul > li > p {
+  font-size: 14px;
+}
+.eventNtc ul {
+  width: 338px;
+  height: 109px;
+}
+
+.eventNtc ul li:first-child {
+  margin-top: 0;
+}
+.eventNtc ul li {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.eventNow {
+  margin: 0 auto;
+  width: 1120px;
+  height: auto;
+}
+
+.eventNow h3 {
+  margin: 60px 0 28px;
+  height: auto;
+  font-size: 32px;
+}
+.eventNow ul {
+  display: flex;
+}
+.eventNow ul > li {
+  width: 560px;
+  height: 65px;
+  border: 1px solid #f7f7f7;
+  line-height: 65px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.eventNow ul > li:first-child {
+  background-color: black;
+  color: #fff;
+}
+
+.eventNowContent {
+  width: 1120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.eventNowContent > div > ul {
+  display: flex;
+  width: 100%;
+  height: 190px;
+  padding: 30px 0;
+  background-color: ;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.eventNowContent > div > ul > li > img {
+  width: 360px;
+  height: 180px;
+  background-color: blanchedalmond;
+}
+
+.eventNowContent > div > ul > li:nth-child(2) {
+  width: 760px;
+  height: 180px;
+  background-color: antiquewhite;
+}
+
+.eventNum {
+  width: 1120px;
+  height: 100px;
+  margin: 20px auto 0;
+  font-size: 17px;
+  text-align: center;
+}
