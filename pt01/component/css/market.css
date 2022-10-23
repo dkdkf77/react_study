@@ -1,0 +1,104 @@
+.marketHome {
+  width: 1120px;
+  height: 44px;
+  margin: 0 auto 40px;
+  padding: 28px 0 0;
+  box-sizing: border-box;
+}
+
+.marketHome ul {
+  display: flex;
+  justify-content: left;
+}
+.marketHome ul li {
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.marketHome ul li:last-child::after {
+  content: '';
+}
+
+/* marketHeader */
+.marketcontent {
+  width: 1120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.marketcontentB {
+  width: 100%;
+  height: 250px;
+  background-color: gray;
+  padding: 85px 0 60px 50px;
+  box-sizing: border-box;
+}
+
+.marketcontentB h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.marketcontentB p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.marketcontentB p > span {
+  color: red;
+}
+
+.marketCode {
+  width: 1120px;
+  height: auto;
+  margin: 70px auto 20px;
+}
+
+.marketCode header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.marketCode header h3 {
+  font-size: 22px;
+}
+
+.marketCode header p {
+  font-size: 15px;
+}
+
+.marketCodeInput {
+  margin: 20px 0 14px;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+}
+
+.marketCodeInput div {
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: left;
+}
+
+.marketCodeInput div p {
+  width: 180px;
+  height: 71.5px;
+  padding: 16px 30px 25px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.marketCodeInput div input {
+  width: 430px;
+  height: 38px;
+}
+
+.marketCode > button {
+  display: block;
+  margin: 50px auto 0;
+  width: 190px;
+  height: 60px;
+  margin-bottom: 200px;
+  background-color: #e50923;
+  font-size: 18px;
+  border: 0;
+  color: #fff;
+}

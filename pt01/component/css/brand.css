@@ -1,0 +1,91 @@
+.brandHome {
+  width: 1120px;
+  height: 44px;
+  margin: 0 auto 40px;
+  padding-top: 28px;
+}
+
+.brandHome>ul {
+  display: flex;
+  justify-content: left;
+}
+
+.brandHome>ul>li {
+  margin-right: 10px;
+}
+
+.brandMainNav {
+  width: 1120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.brandMainNav>div {
+  font-size: 32px;
+  margin-bottom: 28px;
+  font-weight: 600;
+}
+
+.brandMainNav>ul {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 30px;
+}
+
+.brandMainNav>ul>li {
+  width: 250px;
+  height: 54px;
+  border: 1px solid #f7f7f7;
+  font-size: 17px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.brandSub {
+  width: 1120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.brandSub ul {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.brandSub ul li {
+  width: 180px;
+  height: 54px;
+  border: 1px solid #f7f7f7;
+  line-height: 54px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.contents {
+  width: 1120px;
+  height: auto;
+  margin: 60px auto 0;
+}
+
+.contents>header {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.contents>div>section>ul {
+  display: flex;
+  justify-content: left;
+}
+
+.contents>div>section>ul>li {
+  margin-right: 10px;
+  width: 271px;
+  height: 338px;
+  background-color: antiquewhite;
+  border: 1px solid #f7f7f7;
+}
+
+.contents:last-child {
+  margin-bottom: 100px;
+}
